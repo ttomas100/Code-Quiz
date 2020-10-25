@@ -1,0 +1,104 @@
+ #wrapper {
+    position: relative;
+    left: 30%;
+    top: 10%;
+    width: 500px;
+    height: 300px;
+    border: 2px solid red;
+    }
+#thisTimer {
+    float: right;
+    }
+#quizQues {
+    margin: 20px;
+    }
+#startQuiz {
+    background-color: red;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 25px;
+    color: white;
+    }
+#goBack {
+    background-color: red;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    }
+
+#clear {
+    background-color: red;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+    }
+
+#Submit {
+    background-color: red;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    }
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+    }
+
+li {
+    background-color: red;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    }
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    }
+        
+@media screen and (max-width: 640px) {
+    body {min-width: 640px;
+        }
+    #wrapper {position: absolute;
+            left: 5%;
+           }
+    a {margin-left: 5%;
+             }
+       
+           }
+@media screen and (max-width: 786px) {
+        body {
+            max-width: 786px;
+        }
+    #wrapper {
+        position: absolute;
+        left: 20%;
+    }
+    a {
+        margin-left: 10%;
+    }
+        #goBack {         
+            position: relative;
+            left: 55%;
+        }
+        #clear {           
+            position: relative;
+            right: 5%;           
+        }
+    }
+        
+  
